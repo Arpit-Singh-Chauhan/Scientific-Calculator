@@ -46,17 +46,17 @@ Scientific-Calculator/
 │   ├── ScientificCalculator.h
 │   └── ExpressionEvaluator.h
 │
+├── screenshots/
+│
 ├── src/
 │   ├── BasicCalculator.cpp
 │   ├── ScientificCalculator.cpp
 │   ├── ExpressionEvaluator.cpp
 │   └── main.cpp
 │
-├── screenshots/
-│
-├── .gitignore
 ├── README.md
-└── LICENSE (optional)
+│
+└── calculator.exe
 ```
 
 ---
@@ -68,18 +68,6 @@ Scientific-Calculator/
 - Standard Template Library (STL)
 
 ---
-
-## Build Instructions
-
-### Using g++
-
-Compile the project using:
-
-```bash
-g++ src/*.cpp -I include -o calculator
-```
-
-Run the executable:
 
 ### Windows
 
@@ -138,8 +126,8 @@ Enter your choice:
 ## Future Improvements
 
 - Unit converter
-- Matrix operations
 - History feature
+- Matrix operations
 
 ---
 
